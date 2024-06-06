@@ -2,6 +2,7 @@ import java.util.PriorityQueue;
 import java.util.Stack;
 public class HandOfStraights {
     public static void main (String [] args){
+        //this is a sample input , can be modified to take inputs from the user too.
     int [] hand = {1,2,3,6,2,3,4,7,8};
     int groupSize=3;
     System.out.println(isNStraightHand(hand,groupSize));
